@@ -21,7 +21,8 @@ public class MainPage extends BasePage {
     @FindBy(xpath = "//a[text()='Show All Desktops']")
     private WebElement showAllDesktops;
 
-
+    @FindBy(xpath = "//a[text()='Cameras']")
+    private WebElement cameras;
     @FindBy(xpath = "//a[text()='iPhone']")
     private WebElement iPhone;
 
@@ -58,9 +59,12 @@ public class MainPage extends BasePage {
     }
 
 
-
     public void clickIphone() {
         JavascriptExecutor executor = (JavascriptExecutor) getDriver();
         executor.executeScript("arguments[0].click()", iPhone);
+    }
+
+    public void clickButtonCameras() {
+        cameras.click();
     }
 }

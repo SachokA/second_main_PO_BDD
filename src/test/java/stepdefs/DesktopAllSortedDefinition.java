@@ -16,10 +16,6 @@ public class DesktopAllSortedDefinition {
     public void iSelectNameFromShowDropdown(String value) {
                mainPage.clickButtonShowAllDesktop().selectSortedPrice(value);}
 
-//    @When("I select Price (Low > High) from Show dropdown")
-//    public void iSelectNameFromShowDropdown(String value) {
-//        mainPage.clickButtonShowAllDesktop().selectSortedPrice("Price (Low > High)");
-//    }
     @Then("Check that products were sorted correctly by name")
     public void check_that_products_were_sorted_correctly() {
         List<String> actualList = desktopsPage
