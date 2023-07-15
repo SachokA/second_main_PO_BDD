@@ -4,13 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a006e708-21eb-4178-a434-bbddaadb97ab" name="Changes" comment="My first commit">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/DesktopsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefs/DesktopAllStepDefinition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/DesktopAll.feature" afterDir="false" />
+    <list default="true" id="a006e708-21eb-4178-a434-bbddaadb97ab" name="Changes" comment="Created tests DesktopAll">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/IphonePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefs/DesktopAllSortedDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepdefs/IphonePriceStepDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/DesktopAllSorted.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/IphonePrice.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/DesktopsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/DesktopsPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefs/DesktopAllStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefs/DesktopAllStepDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/DesktopAll.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/DesktopAll.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,16 +45,16 @@
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
-  <component name="RunManager" selected="Cucumber Java.Feature: DesktopAll">
-    <configuration name="Feature: DesktopAll" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Check price Iphone">
+    <configuration name="Feature: DesktopAllSorted" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/DesktopAll.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/DesktopAllSorted.feature" />
       <option name="GLUE" value="stepdefs hooks" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="second_main_PO_BDD" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
       <shortenClasspath name="NONE" />
-      <option name="SUGGESTED_NAME" value="Feature: DesktopAll" />
+      <option name="SUGGESTED_NAME" value="Feature: DesktopAllSorted" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -63,16 +67,15 @@
         <option name="MakeProject" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Check alert message" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: IphonePrice" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/CheckAlertMessage.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/IphonePrice.feature" />
       <option name="GLUE" value="stepdefs hooks" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="second_main_PO_BDD" />
-      <option name="NAME_FILTER" value="^Check alert message$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Check alert message$&quot;" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
       <shortenClasspath name="NONE" />
-      <option name="SUGGESTED_NAME" value="Scenario: Check alert message" />
+      <option name="SUGGESTED_NAME" value="Feature: IphonePrice" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -85,16 +88,16 @@
         <option name="MakeProject" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Check that value 25 products display on page" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Check corrected sorted All Desktops Name (A - Z)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/DesktopAll.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/DesktopAllSorted.feature" />
       <option name="GLUE" value="stepdefs hooks" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="second_main_PO_BDD" />
-      <option name="NAME_FILTER" value="^Check that value 25 products display on page$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Check that value 25 products display on page$&quot;" />
+      <option name="NAME_FILTER" value="^Check corrected sorted All Desktops Name \(A \- Z\)$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Check corrected sorted All Desktops Name \(A \- Z\)$&quot;" />
       <shortenClasspath name="NONE" />
-      <option name="SUGGESTED_NAME" value="Scenario: Check that value 25 products display on page" />
+      <option name="SUGGESTED_NAME" value="Scenario: Check corrected sorted All Desktops Name (A - Z)" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -107,16 +110,16 @@
         <option name="MakeProject" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Check that value in Show dropdown is 10" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Check corrected sorted All Desktops Price (Low &gt; High)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/DesktopAll.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/DesktopAllSorted.feature" />
       <option name="GLUE" value="stepdefs hooks" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="second_main_PO_BDD" />
-      <option name="NAME_FILTER" value="^Check that value in Show dropdown is 10$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Check that value in Show dropdown is 10$&quot;" />
+      <option name="NAME_FILTER" value="^Check corrected sorted All Desktops Price \(Low \&gt; High\)$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Check corrected sorted All Desktops Price \(Low \&gt; High\)$&quot;" />
       <shortenClasspath name="NONE" />
-      <option name="SUGGESTED_NAME" value="Scenario: Check that value in Show dropdown is 10" />
+      <option name="SUGGESTED_NAME" value="Scenario: Check corrected sorted All Desktops Price (Low &gt; High)" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -129,15 +132,16 @@
         <option name="MakeProject" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Check that value in Sort By is Default" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Check price Iphone" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/DesktopAll.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/IphonePrice.feature" />
       <option name="GLUE" value="stepdefs hooks" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="second_main_PO_BDD" />
-      <option name="NAME_FILTER" value="^Check that value in Sort By is Default$" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Check that value in Sort By is Default$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Check that value in Sort By is Default" />
+      <option name="NAME_FILTER" value="^Check price Iphone$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Check price Iphone$&quot;" />
+      <shortenClasspath name="NONE" />
+      <option name="SUGGESTED_NAME" value="Scenario: Check price Iphone" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -147,22 +151,31 @@
       </extension>
       <method v="2">
         <option name="Make" enabled="true" />
+        <option name="MakeProject" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <shortenClasspath name="NONE" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="MakeProject" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Cucumber Java.Scenario: Check that value 25 products display on page" />
-      <item itemvalue="Cucumber Java.Scenario: Check that value in Sort By is Default" />
-      <item itemvalue="Cucumber Java.Scenario: Check that value in Show dropdown is 10" />
-      <item itemvalue="Cucumber Java.Feature: DesktopAll" />
-      <item itemvalue="Cucumber Java.Scenario: Check alert message" />
+      <item itemvalue="Cucumber Java.Feature: IphonePrice" />
+      <item itemvalue="Cucumber Java.Scenario: Check corrected sorted All Desktops Name (A - Z)" />
+      <item itemvalue="Cucumber Java.Scenario: Check price Iphone" />
+      <item itemvalue="Cucumber Java.Feature: DesktopAllSorted" />
+      <item itemvalue="Cucumber Java.Scenario: Check corrected sorted All Desktops Price (Low &gt; High)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Feature: DesktopAll" />
-        <item itemvalue="Cucumber Java.Scenario: Check that value 25 products display on page" />
-        <item itemvalue="Cucumber Java.Scenario: Check that value in Sort By is Default" />
-        <item itemvalue="Cucumber Java.Scenario: Check that value in Show dropdown is 10" />
-        <item itemvalue="Cucumber Java.Scenario: Check alert message" />
+        <item itemvalue="Cucumber Java.Scenario: Check price Iphone" />
+        <item itemvalue="Cucumber Java.Feature: IphonePrice" />
+        <item itemvalue="Cucumber Java.Scenario: Check corrected sorted All Desktops Name (A - Z)" />
+        <item itemvalue="Cucumber Java.Scenario: Check corrected sorted All Desktops Price (Low &gt; High)" />
+        <item itemvalue="Cucumber Java.Feature: DesktopAllSorted" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689241264104</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Created tests DesktopAll">
+      <created>1689249075736</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1689249075736</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,7 +231,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="My first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="My first commit" />
+    <MESSAGE value="Created tests DesktopAll" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created tests DesktopAll" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -220,6 +241,11 @@
           <properties class="java.lang.NoSuchMethodError" package="java.lang" />
           <option name="timeStamp" value="2" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/pages/DesktopsPage.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

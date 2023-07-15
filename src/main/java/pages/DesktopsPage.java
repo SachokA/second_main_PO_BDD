@@ -57,9 +57,8 @@ public class DesktopsPage extends BasePage {
         return this;
     }
 
-    public DesktopsPage selectSortedPrice(String value){
+    public void selectSortedPrice(String value){
         select(valueSortShow,value);
-        return this;
     }
 
     public List<Double> getProductsPrice() {

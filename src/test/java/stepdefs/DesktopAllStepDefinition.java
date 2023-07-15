@@ -58,4 +58,14 @@ public class DesktopAllStepDefinition {
                 .countFindAll();
         Assert.assertEquals(actualCountProducts, 12);
     }
+    @Then("Check that text displays on the bottom of the page")
+    public void checkThatTextDisplaysOnTheBottomOfThePage() {
+        MainPage mainPage = new MainPage();
+        String actualGetText = mainPage
+                .clickButtonShowAllDesktop()
+                .selectCountShow("25")
+                .getValueCheckTest();
+        Assert.assertEquals(actualGetText, "Showing 1 to 12 of 12 (1 Pages)");
+    }
+
 }

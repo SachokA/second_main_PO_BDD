@@ -18,10 +18,18 @@ Feature: Test Scenario
     And I click on Show All Desktops
     Then Check that value 10 products display on page
 
-    Scenario:Check that value 25 products display on page
-      Given I am on the main page
-      When I select Desktops
-      And I click on Show All Desktops
-      And I select from Show dropdown
-      Then Check that value 12 products display on page
+  Scenario:Check that value 25 products display on page
+    Given I am on the main page
+    When I select Desktops
+    And I click on Show All Desktops
+    And I select from Show dropdown
+    Then Check that value 12 products display on page
+
+  Scenario:Check that text 'Showing 1 to 12 of 12 (1 Pages)' displays on the bottom of the page
+    Given I am on the main page
+    When I select Desktops
+    And I click on Show All Desktops
+    And I select from Show dropdown
+    Then Check that text displays on the bottom of the page
+
 
