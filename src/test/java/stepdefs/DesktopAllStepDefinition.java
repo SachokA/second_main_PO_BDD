@@ -25,26 +25,20 @@ public class DesktopAllStepDefinition {
 
     @Then("Check that value in Show dropdown is 10")
     public void checkThatValueInShowDropdownIs10() {
-        String actualCountShow = mainPage
-                .clickButtonShowAllDesktop()
-                .getValueCountShow();
+        String actualCountShow = desktopsPage.getValueCountShow();
         Assert.assertEquals(actualCountShow, "10");
     }
 
     @Then("Check that value in Sort By is Default")
     public void checkThatValueInSortByIsDefault() {
-        String actualSortShow = mainPage
-                .clickButtonShowAllDesktop()
+        String actualSortShow = desktopsPage
                 .getValueSortShow();
         Assert.assertEquals(actualSortShow, "Default");
     }
 
     @Then("Check that value 10 products display on page")
     public void checkThatValueProductsDisplayOnPage() {
-        int actualCountProducts = mainPage
-                .clickButtonShowAllDesktop()
-                .countFindAll();
-        Assert.assertEquals(actualCountProducts, 10);
+        Assert.assertEquals(desktopsPage.countFindAll(), 10);
     }
 
     @And("I select from Show dropdown")
@@ -54,18 +48,13 @@ public class DesktopAllStepDefinition {
 
     @Then("Check that value 12 products display on page")
     public void checkThatProductsDisplayOnPage() {
-        int actualCountProducts = desktopsPage
-                .countFindAll();
-        Assert.assertEquals(actualCountProducts, 12);
+        Assert.assertEquals(desktopsPage.countFindAll(), 12);
     }
+
     @Then("Check that text displays on the bottom of the page")
     public void checkThatTextDisplaysOnTheBottomOfThePage() {
-        MainPage mainPage = new MainPage();
-        String actualGetText = mainPage
-                .clickButtonShowAllDesktop()
-                .selectCountShow("25")
-                .getValueCheckTest();
-        Assert.assertEquals(actualGetText, "Showing 1 to 12 of 12 (1 Pages)");
+               Assert.assertEquals(desktopsPage
+                .getValueCheckTest(), "Showing 1 to 12 of 12 (1 Pages)");
     }
 
 }

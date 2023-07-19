@@ -19,8 +19,7 @@ public class CamerasPriceStepDefinition {
 
     @Then("Check that {double} cameras exist on page")
     public void check_that_cameras_exist_on_page(Double double1) {
-        Double actualResultCountCamerasOnPage = camerasPage.getCamerasSize();
-        Assert.assertEquals(actualResultCountCamerasOnPage,double1);
+         Assert.assertEquals(camerasPage.getCamerasSize(),double1);
     }
 
 
